@@ -1,0 +1,31 @@
+baseURL = "https://pellared.github.io/hugo-playground/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "cactus"
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+[params]
+  colortheme = "dark" # dark, light, white, or classic
+
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/pellared"
+  [[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/rpajak"
